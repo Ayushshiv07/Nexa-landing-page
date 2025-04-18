@@ -1,6 +1,7 @@
 # 🌟 Nexa - Modern Landing Page Template
 
-![Screenshot (1528)](https://github.com/user-attachments/assets/77a0f79c-5cd1-4704-b984-f1eaa0ba2757)
+![ss pro](https://github.com/user-attachments/assets/6915a387-4fad-4eeb-b27f-e37f87ab1b83)
+
 
 
 A beautiful, conversion-optimized landing page with smooth animations and responsive design. Perfect for SaaS, startups, and digital products.
