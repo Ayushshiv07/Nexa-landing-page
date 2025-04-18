@@ -1,4 +1,3 @@
-// Mobile Menu Toggle
 const mobileMenuBtn = document.querySelector('.mobile-menu');
 const navLinks = document.querySelector('.nav-links');
 
@@ -9,7 +8,6 @@ mobileMenuBtn.addEventListener('click', () => {
         : '<i class="fas fa-bars"></i>';
 });
 
-// Close mobile menu when clicking a link
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
@@ -17,7 +15,6 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// Header scroll effect
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
@@ -27,7 +24,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Testimonial slider
 const testimonials = document.querySelectorAll('.testimonial');
 const dots = document.querySelectorAll('.slider-dot');
 let currentSlide = 0;
@@ -45,13 +41,11 @@ dots.forEach((dot, index) => {
     dot.addEventListener('click', () => showSlide(index));
 });
 
-// Auto slide change
 setInterval(() => {
     let nextSlide = (currentSlide + 1) % testimonials.length;
     showSlide(nextSlide);
 }, 5000);
 
-// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -69,7 +63,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Animation on scroll
 function animateOnScroll() {
     const elements = document.querySelectorAll('.feature-card, .pricing-card, .section-title');
     
@@ -84,7 +77,6 @@ function animateOnScroll() {
     });
 }
 
-// Set initial state for animated elements
 document.querySelectorAll('.feature-card, .pricing-card, .section-title').forEach(element => {
     element.style.opacity = '0';
     element.style.transform = 'translateY(20px)';
