@@ -32,7 +32,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
 header {
     position: fixed;
     top: 0;
@@ -131,7 +130,6 @@ header.scrolled {
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
@@ -205,7 +203,6 @@ header.scrolled {
     transform: perspective(1000px) rotateY(0deg);
 }
 
-/* Features Section */
 .features {
     padding: 100px 0;
     background-color: var(--light);
@@ -273,7 +270,6 @@ header.scrolled {
     color: var(--dark);
 }
 
-/* Testimonials */
 .testimonials {
     padding: 100px 0;
     background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
@@ -363,7 +359,6 @@ header.scrolled {
     transform: scale(1.2);
 }
 
-/* Pricing */
 .pricing {
     padding: 100px 0;
     background-color: white;
@@ -452,7 +447,6 @@ header.scrolled {
     text-align: center;
 }
 
-/* CTA Section */
 .cta-section {
     padding: 100px 0;
     background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
@@ -472,7 +466,6 @@ header.scrolled {
     opacity: 0.9;
 }
 
-/* Footer */
 footer {
     background-color: var(--dark);
     color: white;
@@ -553,7 +546,6 @@ footer {
     font-size: 14px;
 }
 
-/* Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -581,7 +573,6 @@ footer {
     }
 }
 
-/* Responsive */
 @media (max-width: 992px) {
     .hero {
         height: auto;
